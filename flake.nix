@@ -4,7 +4,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
     android.url = "github:tadfisher/android-nixpkgs";
-    flutter-nix.url = "github:Prn-Ice/flutter.nix/3.16.9";
+    flutter-nix.url = "github:Degorn/flutter.nix";
   };
   outputs = { self, nixpkgs, flake-utils, android, flutter-nix }:
     flake-utils.lib.eachDefaultSystem (system:
